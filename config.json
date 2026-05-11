@@ -1,0 +1,58 @@
+{
+  "name": "slope",
+  "app_id": "slope",
+  "cdn_base": "https://cdn.jsdelivr.net/gh/classrom-gg/game-repo-slope@main/slope/",
+  "urls": {
+    "dataUrl": "Build/webgl.data",
+    "frameworkUrl": "Build/build.framework.js",
+    "codeUrl": "Build/build.wasm",
+    "loader": "Build/output_2022_version.loader.js"
+  },
+  "files": {
+    "build.framework.js": {
+      "cdn_path": "https://cdn.jsdelivr.net/gh/classrom-gg/game-repo-slope@main/slope/Build\\build.framework.js",
+      "local_path": "Build\\build.framework.js",
+      "size": 388590,
+      "size_mb": 0.37,
+      "needs_chunk": false
+    },
+    "build.wasm": {
+      "cdn_path": "https://cdn.jsdelivr.net/gh/classrom-gg/game-repo-slope@main/slope/Build\\build.wasm",
+      "local_path": "Build\\build.wasm",
+      "size": 29081947,
+      "size_mb": 27.73,
+      "needs_chunk": true
+    },
+    "output_2022_version.loader.js": {
+      "cdn_path": "https://cdn.jsdelivr.net/gh/classrom-gg/game-repo-slope@main/slope/Build\\output_2022_version.loader.js",
+      "local_path": "Build\\output_2022_version.loader.js",
+      "size": 13106,
+      "size_mb": 0.01,
+      "needs_chunk": false
+    },
+    "webgl.data": {
+      "cdn_path": "https://cdn.jsdelivr.net/gh/classrom-gg/game-repo-slope@main/slope/Build\\webgl.data",
+      "local_path": "Build\\webgl.data",
+      "size": 6702192,
+      "size_mb": 6.39,
+      "needs_chunk": false
+    }
+  },
+  "chunks_needed": [
+    {
+      "filename": "build.wasm",
+      "path": "Build\\build.wasm",
+      "size_mb": 27.73,
+      "chunks": 2
+    }
+  ],
+  "large_files": [
+    {
+      "path": "c:\\Users\\ngocl\\Desktop\\game h5 github\\games\\slope\\Build\\build.wasm",
+      "relative_path": "Build\\build.wasm",
+      "size": 29081947,
+      "size_mb": 27.73,
+      "needs_chunk": true
+    }
+  ]
+}
